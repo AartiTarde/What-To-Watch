@@ -1,0 +1,298 @@
+body{
+    width: auto;
+    height: auto;
+     background-color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.id
+{
+    width: 100%;
+    height: 100%;
+    border: 6px double  white;
+    background-image: url(photo/main.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+#header
+{
+    width: 500px;
+    height: 50px;
+    margin: 25px 100px 100px 500px;
+    border: 2px solid  white;
+    /*background-color: rgb(129, 8, 8);*/
+    background-color: rgb(33, 30, 30);
+   display:inline-block; 
+   
+}
+h1{
+    color: white;
+    position:absolute;
+    animation: header 3s linear infinite;
+    animation-delay: 0.1;
+    margin: 10px 100px 100px 130px;
+    opacity:unset;
+}
+@keyframes header {
+        0%
+        {
+            transform: translateY(0px);
+            text-shadow:5px 5px 5px white;
+        }
+        40%
+        {
+            transform: translateY(-20px);
+          
+        }
+        100%
+        {
+            transform: translateY(0px);
+          
+        }
+          
+}
+h2{
+    color: white;
+    margin-left: 625px;
+    text-shadow:5px 5px 5px white;
+    font-size: 30px;
+    
+}
+h3{
+    color: white;
+    margin-left: 625px;
+    text-shadow:5px 5px 5px white;
+}
+.main
+{
+    display: grid;
+    width: 400px;
+    height:230px;
+    border: 3px solid white;
+    margin-left: 550px;
+    margin-top: 50px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+ 
+}
+a{
+    color: white;
+    font-size: x-large;
+    margin:50px 0px 10px 20px;
+    /*text-shadow: 5px 5px 10px white;*/
+}
+#id1
+{
+    border: 2px double white;
+    color: #ffffff;
+    width: 180px;
+    height: 100px;
+
+}
+#id1:hover
+{
+    box-shadow:5px 5px 5px white;
+
+}
+#id2
+{
+    border: 2px double white;
+    width: 180px;
+    height: 100px;
+}
+#id2:hover
+{
+    box-shadow:5px 5px 5px white;
+}
+#id3
+{
+  border: 2px double white;
+  width: 180px;
+  height: 100px;
+}
+#id3:hover
+{
+    box-shadow:5px 5px 5px white;
+}
+#id4
+{
+   border: 2px double white;
+   width: 180px;
+   height: 100px;
+}
+#id4:hover
+{   
+    box-shadow:5px 5px 5px white;
+}
+
+button{
+    margin:20px 10px 20px 0px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(52, 46, 46);
+    color: white;
+    /*text-shadow:5px 5px 5px white;*/
+    box-shadow:5px 5px 5px white;
+    border-radius: 5px 5px 5px;
+}
+button:hover{
+    box-shadow:5px 5px 5px white;
+}
+#btn
+{
+    width: 00px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top:50px;
+    color: white
+}
+.c1{
+    margin-left: 500px;
+}body{
+    width: auto;
+    height: auto;
+     background-color: black;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+}
+.id
+{
+    width: 100%;
+    height: 100%;
+    border: 6px double  white;
+    background-image: url(photo/main.jpg);
+    background-repeat: no-repeat;
+    opacity: 0.7;
+}
+#header
+{
+    width: 500px;
+    height: 50px;
+    margin: 25px 100px 100px 500px;
+    border: 2px solid  white;
+    /*background-color: rgb(129, 8, 8);*/
+    background-color: rgb(33, 30, 30);
+   display: inline-block; 
+   
+}
+h1{
+    color: white;
+    position:absolute;
+    animation: header 3s linear infinite;
+    animation-delay: 0.1;
+    margin: 10px 100px 100px 130px;
+    opacity:unset;
+}
+@keyframes header {
+        0%
+        {
+            transform: translateY(0px);
+            text-shadow:5px 5px 5px white;
+        }
+        40%
+        {
+            transform: translateY(-20px);
+          
+        }
+        100%
+        {
+            transform: translateY(0px);
+          
+        }
+          
+}
+h2{
+    color: white;
+    margin-left: 625px;
+    text-shadow:5px 5px 5px white;
+    font-size: 30px;
+    
+}
+h3{
+    color: white;
+    margin-left: 650px;
+    text-shadow:5px 5px 5px white;
+}
+.main
+{
+    display: grid;
+    width: 400px;
+    height:230px;
+    border: 3px solid white;
+    margin-left: 550px;
+    margin-top: 50px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px;
+ 
+}
+a{
+    color: white;
+    font-size: x-large;
+    margin:50px 0px 10px 20px;
+    text-shadow: 5px 5px 10px white;
+}
+#id1
+{
+    border: 2px double white;
+    color: #ffffff;
+    width: 180px;
+    height: 100px;
+
+}
+#id1:hover
+{
+    box-shadow:5px 5px 5px white;
+
+}
+#id2
+{
+    border: 2px double white;
+    width: 180px;
+    height: 100px;
+}
+#id2:hover
+{
+    box-shadow:5px 5px 5px white;
+}
+#id3
+{
+  border: 2px double white;
+  width: 180px;
+  height: 100px;
+}
+#id3:hover
+{
+    box-shadow:5px 5px 5px white;
+}
+#id4
+{
+   border: 2px double white;
+   width: 180px;
+   height: 100px;
+}
+#id4:hover
+{   
+    box-shadow:5px 5px 5px white;
+}
+button{
+    margin:20px 10px 20px 0px;
+    width: 150px;
+    height: 50px;
+    border: 2px solid white;
+    background-color: rgb(52, 46, 46);
+    color: white;
+    
+}
+button:hover{
+    box-shadow:5px 5px 5px white;
+}
+#btn
+{
+    width: 200px;
+    height: 50px;
+    margin-left: 700px;
+    color: white
+}

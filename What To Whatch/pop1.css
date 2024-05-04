@@ -1,0 +1,41 @@
+body
+{
+    background-color: rgb(76, 73, 73);
+    background-image: url(main.jpg);
+}
+.container
+{
+    border: 1px solid white;
+    display: inline-block;
+    width: 400px;
+    height: 300px;
+    margin-top: 200px;
+    margin-left:550px;
+    background-color: white;
+    
+}
+.container:hover{
+    box-shadow:5px 5px 5px white;
+}
+#id1
+{
+    padding: 10px;
+    margin-left:40px;
+    margin-top: 30px;
+  
+
+}
+input,button{
+    width: 300px;
+    height: 40px;
+    border: 1px solid black;
+    background-color: black;
+    color: white;
+}
+input:hover{
+   border: 2px solid red;
+}
+h3
+{
+    margin-left: 120px;
+}
